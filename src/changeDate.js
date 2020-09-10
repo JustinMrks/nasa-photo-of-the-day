@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChangeDate = ({ setDate }) => {
     return(
-        <button onClick={() => setDate('2016-04-05')}>Change Date</button>
+        <button onClick={() => setDate(prompt('Enter a date','YYYY-MM-DD'))}>Change Date</button>
     )
 }
 
